@@ -4,4 +4,4 @@ clear = lambda: os.system('cls')#чистим консоль перед выво
 clear()#чистим консоль перед выводом
 print('Введите дробное число:');
 a = float(input())
-print("{:3.1f}".format(a))
+print("{:.1f}".format(a))
